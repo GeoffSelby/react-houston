@@ -27,7 +27,7 @@ export default {
     external(),
     copy([{ files: 'src/houston.css', dest: 'dist/css' }], {
       verbose: true,
-      watch: true
+      watch: false
     }),
     postcss({
       modules: true
