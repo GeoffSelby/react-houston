@@ -1,13 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-import ExampleComponent from 'react-houston'
+import Countdown from 'react-houston';
+import 'react-houston/dist/css/houston.css';
 
-export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
-  }
-}
+const App = () => {
+  const today = new Date();
+  let tomorrow = new Date();
+  tomorrow.setDate(today.getDate() + 1);
+
+  return (
+    <div className="flex flex-col justify-center items-center h-full">
+      <h1>Countdown</h1>
+      <Countdown endDate={tomorrow} />
+    </div>
+  );
+};
+
+export default App;

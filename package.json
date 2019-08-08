@@ -2,7 +2,7 @@
   "name": "react-houston",
   "version": "1.0.0",
   "description": "A simple countdown component for React",
-  "author": "GeoffSelby",
+  "author": "Geoff Selby <geoff@geoffcodesthings.com>",
   "license": "MIT",
   "repository": "GeoffSelby/react-houston",
   "main": "dist/index.js",
@@ -35,6 +35,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "cross-env": "^5.1.4",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "eslint": "^5.0.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-react": "^6.0.0",
@@ -50,6 +52,7 @@
     "rollup": "^0.64.1",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-copy-glob": "^0.3.1",
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^1.6.2",
@@ -57,5 +60,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {}
 }
