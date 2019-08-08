@@ -4,7 +4,7 @@
   "description": "A simple countdown component for React",
   "author": "Geoff Selby <geoff@geoffcodesthings.com>",
   "license": "MIT",
-  "repository": "GeoffSelby/react-houston",
+  "repository": "github:GeoffSelby/react-houston",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
